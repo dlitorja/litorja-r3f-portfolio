@@ -5,7 +5,7 @@ export default async function Home() {
   const client = createClient();
 
   let title = "Dustin Litorja";
-  let blurb = "Developer portfolio exploring interactive 3D and motion.";
+  let blurb = "Content Strategy | Marketing | Videography | Photography";
 
   try {
     const home = await client.getSingle("homepage");
